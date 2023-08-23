@@ -27,6 +27,7 @@ steps:
     script: |
       echo $(packageName)
       echo $(packageVersion)
+      echo $(newTestVar)
 
 - task: UniversalPackages@0
   inputs:
